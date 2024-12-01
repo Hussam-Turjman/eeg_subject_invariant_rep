@@ -1,0 +1,10 @@
+{
+  "subject_dependent": {
+    "data_type": "time_domain"
+  },
+  "subject_independent": {
+    "data_type": "time_domain"
+  },
+  "data_format": null
+
+}

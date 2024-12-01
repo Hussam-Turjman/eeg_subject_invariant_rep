@@ -1,0 +1,14 @@
+{
+  "sampling_rate": 124,
+  "window_len": 2,
+  "tasks": [],
+  "l_freq": 7,
+  "h_freq": 30,
+  "n_chs": 64,
+  "scalings": "mean",
+  "normalization": "l2",
+  "class_encoder_type": "label",
+  "subject_id_encoder_type": "label",
+  "random_state": 42,
+  "n_subjects": null
+}

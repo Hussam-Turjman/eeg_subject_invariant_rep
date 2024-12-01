@@ -1,0 +1,29 @@
+{
+  "subject_dependent": {
+    "factor": 0.5,
+    "es_patience": 20,
+    "lr": 0.001,
+    "min_lr": 0.0001,
+    "batch_size": 10,
+    "patience": 5,
+    "epochs": 200,
+    "data_type": "time_domain"
+  },
+  "subject_independent": {
+    "factor": 0.5,
+    "es_patience": 20,
+    "lr": 0.001,
+    "min_lr": 0.0001,
+    "batch_size": 100,
+    "patience": 5,
+    "epochs": 200,
+    "data_type": "time_domain"
+  },
+  "data_format": "NCTD",
+  "loss_weights": [
+    0.5,
+    0.5,
+    1.0
+  ],
+  "margin": 100.0
+}

@@ -1,0 +1,18 @@
+{
+  "sampling_rate": 124,
+  "window_len": 2,
+  "tasks": [],
+  "exclude_subjects": ["P04", "P06", "P10"],
+  "exclude_sessions": ["sub-P000_ses-S002_task-Default_run-001_eeg.xdf",
+                       "sub-P000_ses-S003_task-Default_run-001_eeg.xdf"],
+  "dataset_dir": "experiment/eeg_data/eeg",
+  "l_freq": 0.5,
+  "h_freq": 30,
+  "n_chs": 8,
+  "scalings": "mean",
+  "normalization": "l2",
+  "class_encoder_type": "label",
+  "subject_id_encoder_type": "label",
+  "random_state": 42,
+  "n_subjects": null
+}
